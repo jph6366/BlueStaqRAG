@@ -33,7 +33,7 @@ fi
 # Clone repository if not already in it
 if [ ! -d ".git" ]; then
     echo "📥 Cloning BlueStaq repository..."
-    git clone https://github.com/yourusername/BlueStaq.git
+    git clone https://github.com/jph6366/BlueStaqRAG.git
     cd BlueStaq
 fi
 
