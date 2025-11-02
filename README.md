@@ -133,8 +133,8 @@ const MAX_JOKES = 1000  # Maximum number of jokes to process
      - Approximately 4GB model size (vs 13GB for 16-bit precision)
 
 2. **Retrieval System**:
-   - **Corpus**: Jokes Dataset
-     - Collection of programming and technical jokes
+   - **Corpus**: Jokes Dataset 
+     - over 10580 jokes submitted and ranked by users avaiable to store in collection
      - Stored as individual text files for efficient access
      - Preprocessed to remove duplicates and low-quality content
    - **Retrieval Algorithm**:
