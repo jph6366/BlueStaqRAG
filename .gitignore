@@ -1,0 +1,40 @@
+# Model files - exclude large language model files
+model/*.gguf
+model/*.bin
+model/*.pt
+model/*.onnx
+model/*.safetensors
+
+# Data directories - exclude downloaded and generated data
+data/context/jokes/
+data/context/index.jls
+data/context/*.json
+data/context/embeddings/
+data/*/cache/
+
+# Julia specific ignores
+*.jl.*.cov
+*.jl.cov
+*.jl.mem
+.juliahistory
+Manifest.toml
+
+# VS Code settings
+.vscode/
+*.code-workspace
+.history/
+
+# System files
+.DS_Store
+Thumbs.db
+*~
+
+# Log files and temporary data
+*.log
+logs/
+tmp/
+
+# Local development
+.env
+.env.local
+*.local

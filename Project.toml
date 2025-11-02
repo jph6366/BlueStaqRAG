@@ -1,0 +1,17 @@
+name = "LocalLLM"
+uuid = "1234abcd-5678-9012-3456-7890abcdef12"
+authors = ["Your Name"]
+version = "0.1.0"
+
+[deps]
+ArgParse = "c7e460c6-2fb9-53a9-8c5b-16f535851c63"
+Downloads = "f43a241f-c20a-4ad4-852c-f6b1247861c6"
+JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+LlamaCpp = "4028143c-eef9-4a3a-9d23-34f3d8ed2047"
+RAGTools = "16ddad29-bbe8-45a7-857d-3d9514eb0023"
+REPL = "3fa0cd96-eef1-5676-8a61-b3b8758bbffb"
+Transformers = "21ca0261-441d-5938-ace7-c90938fde4d4"
+
+[compat]
+julia = "1.9"
