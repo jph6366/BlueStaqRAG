@@ -1,5 +1,7 @@
 # Local LLM with RAG
 
+Warning: This 100% AI-generated code and may contain slop
+
 A robust Julia implementation of a local language model using optimized quantization and retrieval-augmented generation (RAG). This system is designed for efficient operation on standard laptops, providing quick, context-aware responses while maintaining resource efficiency.
 
 ## System Requirements
